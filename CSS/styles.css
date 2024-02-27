@@ -249,6 +249,10 @@ input:checked~.toggle {
     font-size: 50px;
 }
 
+.formacionBody {
+    margin-top: 50px;
+}
+
 .formacionDetails {
     background-color: #ada3a31e;
     border-radius: 20px;
@@ -261,6 +265,11 @@ input:checked~.toggle {
     margin: 10px auto;
     padding: 10px;
     font-size: 16px;
+}
+
+.formacionImagen {
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 
