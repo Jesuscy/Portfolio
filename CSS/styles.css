@@ -17,8 +17,13 @@
 
 }
 
+.infoDatos {
+    width: 400px;
+}
+
 .separador {
     border-bottom: 5px solid rgb(114, 137, 218);
+    border-radius: 5px;
     /* Agrega un margen inferior para separar el separador del contenido siguiente */
 }
 
@@ -35,11 +40,19 @@
 .infoSkills:hover {
     background-color: rgba(59, 62, 66, 0.973);
     transform: scale(1.1);
+    color: rgb(114, 137, 218);
+
 
 }
 
 .infoPerfil {
     margin-left: 15px;
+    transition: all 0.2s ease;
+
+}
+
+.infoPerfil:hover {
+    transform: scale(1.2);
 }
 
 .infoDescripcion {
@@ -49,17 +62,20 @@
 }
 
 .infoImg {
-    border: 8px;
+    border: 6px;
     border-style: solid;
     border-color: rgb(114, 137, 218);
     margin-top: 40px;
     border-radius: 50%;
     background-image: url('/img/fotocv.jpg');
     background-size: 90%;
-    /* Ajusta el tamaño al 100% del ancho y alto del contenedor */
     background-position: center;
     height: 250px;
     width: 250px;
-    /* Ajusta la altura del contenedor según sea necesario */
+    transition: all 0.2s ease;
 
+}
+
+.infoImg:hover {
+    transform: scale(1.3);
 }
