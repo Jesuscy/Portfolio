@@ -159,4 +159,20 @@ input:checked~.toggle {
 
 .infoImg:hover {
     transform: scale(1.2);
+
+}
+
+
+@media (max-width: 768px) {
+    .infoPerfil {
+        margin-top: 20px;
+        margin-left: 15px;
+        transition: all 0.4s ease;
+
+    }
+
+    .sm-imgContainer {
+        display: flex;
+        justify-content: center;
+    }
 }
