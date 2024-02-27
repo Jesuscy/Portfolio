@@ -84,13 +84,16 @@ input:checked~.toggle {
 /*FIN MODO NOCHE*/
 
 .body-light {
+    transition: 1s ease;
     background-color: #bdbaba;
 }
 
 .body-dark {
+    transition: 1s ease;
     background-color: #444444;
 }
 
+/*INICIO CARTA PRINCIPAL*/
 .infoContainer {
     margin: 10% auto;
     padding: 40px;
@@ -105,6 +108,8 @@ input:checked~.toggle {
 
     display: flex;
     flex-direction: column;
+    transition: 1s ease;
+
 
 }
 
@@ -122,6 +127,7 @@ input:checked~.toggle {
 
     display: flex;
     flex-direction: column;
+    transition: 1s ease;
 
     box-shadow:
         inset 0 2px 10px rgba(170, 170, 170, 0.1),
@@ -145,6 +151,7 @@ input:checked~.toggle {
 
     display: flex;
     flex-direction: column;
+    transition: 1s ease;
 
     box-shadow:
         inset 0 2px 10px rgba(170, 170, 170, 0.1),
@@ -169,6 +176,7 @@ input:checked~.toggle {
     font-size: 30px;
     border-radius: 10px;
     transition: all 0.2s ease;
+    cursor: pointer;
 
 
 }
@@ -224,6 +232,53 @@ input:checked~.toggle {
     transform: scale(1.2);
 
 }
+
+
+
+/*FIN CARTA PRINCIPAL*/
+
+/*INICIO CARTA FORMACION*/
+.formacion {
+    margin: 500px auto;
+    justify-content: center;
+}
+
+.formacionHeader {
+    justify-content: center;
+    color: rgb(114, 137, 218);
+    font-size: 50px;
+}
+
+.formacionDetails {
+    background-color: #ada3a31e;
+    border-radius: 20px;
+    display: flex;
+    font-size: 10px;
+
+}
+
+.formacionDetailsContent {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+/*FIN CARTA FORMACION*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 768px) {
