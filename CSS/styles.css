@@ -86,11 +86,14 @@ input:checked~.toggle {
 .body-light {
     transition: 1s ease;
     background-color: #bdbaba;
+    /*overflow: hidden;*/
 }
 
 .body-dark {
     transition: 1s ease;
     background-color: #444444;
+    /*overflow: hidden;*/
+
 }
 
 /*INICIO CARTA PRINCIPAL*/
@@ -101,7 +104,7 @@ input:checked~.toggle {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
 
-    background-color: rgba(44, 47, 51, 0.973);
+    background-color: rgba(26, 27, 29, 0.973);
     color: rgb(199, 199, 199);
 
     border-radius: 10px;
@@ -120,7 +123,7 @@ input:checked~.toggle {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
 
-    background-color: rgba(44, 47, 51, 0.973);
+    background-color: rgba(36, 38, 41, 0.973);
     color: rgb(199, 199, 199);
 
     border-radius: 10px;
@@ -239,7 +242,7 @@ input:checked~.toggle {
 
 /*INICIO CARTA FORMACION*/
 .formacion {
-    margin: 500px auto;
+    margin: 700px auto;
     justify-content: center;
 }
 
@@ -250,10 +253,11 @@ input:checked~.toggle {
 }
 
 .formacionBody {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .formacionDetails {
+    margin-top: 20px;
     background-color: #726a6a2f;
     border-radius: 20px;
     display: flex;
@@ -268,6 +272,10 @@ input:checked~.toggle {
 
 }
 
+.formacionSubtitles {
+    font-size: 22px;
+}
+
 .formacionDetails:hover {
     transform: scale(1.1);
 }
@@ -277,7 +285,42 @@ input:checked~.toggle {
     border-radius: 10px;
 }
 
+.formacionSvg {
+    margin-top: 40px;
+}
 
+.formacionStack {
+    color: rgb(114, 137, 218);
+    margin-top: 40px;
+    align-items: center;
+}
+
+.formacionStack p {
+    color: rgb(105, 106, 112);
+}
+
+.stackContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    transform: scale(0.7);
+    background-color: #726a6a8a;
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+}
+
+.stackContainer:hover {
+    transform: scale(1);
+    background-color: #726a6ab4;
+
+
+}
+
+.stackElement {}
+
+.rounded {
+    border-radius: 10px;
+}
 
 /*FIN CARTA FORMACION*/
 
