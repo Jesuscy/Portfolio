@@ -96,6 +96,13 @@ input:checked~.toggle {
 
 }
 
+
+
+.rounded {
+    border-radius: 10px;
+}
+
+
 /*INICIO CARTA PRINCIPAL*/
 .infoContainer {
     margin: 10% auto;
@@ -269,6 +276,7 @@ input:checked~.toggle {
         border-right-color: transparent;
     }
 }
+/* text animation */
 
 /*INICIO CARTA FORMACION*/
 
@@ -367,20 +375,47 @@ input:checked~.toggle {
 
 .stackElement {}
 
-.rounded {
-    border-radius: 10px;
-}
-
-
-
-
-
-
 
 /*FIN CARTA FORMACION*/
 
 
+/*INICIO CARTA PROYECTOS*/
 
+.proyectos{
+    padding: 30px;
+    margin: 700px auto;
+    justify-content: center;
+}
+
+.proyectosHeader{
+    justify-content: center;
+    color: rgb(114, 137, 218);
+    font-size: 50px;
+}
+.proyectosHeader p {
+    color: rgb(114, 137, 218);
+    font-size: 50px;
+    border-right: solid 3px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.proyectosHeader p {
+    animation: animated-text 1s steps(7, end) 1s 1 normal both,
+        animated-cursor 600ms steps(7, end) infinite;
+
+}
+
+.proyectosRow{
+    margin: 20px;
+    
+}
+
+.proyectoContainer{
+    margin: 30px;
+
+}
+/*FIN CARTA PROYECTOS*/
 
 
 

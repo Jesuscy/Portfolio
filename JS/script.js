@@ -11,9 +11,11 @@ btnSwitch.addEventListener('click', () => {
     if (isOcuro) {
         const infoContainer = document.getElementsByClassName('infoContainer-dark')[0];
         const infoContainer2 = document.getElementsByClassName('infoContainer-dark')[1];
+        const infoContainer3 = document.getElementsByClassName('infoContainer-dark')[2];
 
         infoContainer.className = 'infoContainer-light';
         infoContainer2.className = 'infoContainer-light';
+        infoContainer3.className = 'infoContainer-light';
 
         document.body.className = 'body-light'
         setLight();
