@@ -415,6 +415,15 @@ input:checked~.toggle {
     margin: 30px;
 
 }
+
+.proyectoTechContainer{
+    padding: 5px;
+    justify-content: center;
+    transform: scale(0.7);
+    background-color: #4443438a;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
 /*FIN CARTA PROYECTOS*/
 
 
