@@ -7,7 +7,7 @@ import '../index.css'
 export const Home = () => {
   return (
     <>
-    <div className='w-full h-screen flex flex-col bg-zinc-900'>
+    <div className='w-full flex flex-col bg-zinc-900'>
     <Navbar/>
     <Presentacion/>
     <Formacion/>
