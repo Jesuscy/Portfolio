@@ -1,4 +1,5 @@
 import { Formacion } from '../comon/Formacion'
+import { Habilidades } from '../comon/Habilidades'
 import { Navbar } from '../comon/Navbar'
 import { Presentacion } from '../comon/Presentacion'
 import { Proyectos } from '../comon/Proyectos'
@@ -10,8 +11,7 @@ export const Home = () => {
     <div className='w-full flex flex-col bg-zinc-900'>
     <Navbar/>
     <Presentacion/>
-    <Formacion/>
-    <Proyectos/>
+    <Habilidades/>
     </div>
     </>
     )

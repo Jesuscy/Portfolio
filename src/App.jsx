@@ -5,10 +5,9 @@ function App() {
 
   return (
     <>
-        <div className='w-full flex flex-col md:flex-row bg-zinc-800'>
 
         <Home/>
-       </div>
+       
     </>
   )
 }
