@@ -13,7 +13,7 @@ export const Navbar = () => {
             Formacion
           </div>
           <div className='w-full md:w-1/5 m-2 p-2 text-center font-mono border border-fuchsia-900 rounded-md cursor-pointer hover:bg-zinc-700'>
-            Experiencia
+            Contacto
           </div>
           <div className='w-full md:w-1/5 m-2 p-2 text-center font-mono border border-fuchsia-900 rounded-md cursor-pointer hover:bg-zinc-700'>
             Proyectos
