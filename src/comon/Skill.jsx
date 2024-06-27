@@ -2,19 +2,17 @@ import React from 'react'
 import fotocv from '../../src/img/fotocv.jpg'
 import reactIcon from '../../src/img/reactIcon.png'
 
-export const Skill = (props) => {
+export const Skill = ({icon, name}) => {
   return (
-    <div className='w-4/5  flex xl:flex-row md:flex-row sm:flex-row xs:flex-col mt-5 rounded-md bg-zinc-900 border-r-4 border-fuchsia-800 cursor-pointer'>
-      <div className='w-2/3 flex flex-col p-4 '>
-        <div className='w-full text-start text-gray-300 font-mono font-bold'>
-          React
+    <div className='w-3/5 flex flex-col xl:flex-col md:flex-col sm:flex-col xs:flex-col mt-5  rounded-md border-r-4 m-10 border-fuchsia-800 cursor-pointer'>
+      <div className='w-full flex flex-col p-5 '>
+        <div className='w-full text-center text-gray-200 lg:text-xl md:text-xl sm:text-xl xs:text-xs font-mono font-bold break-words'>
+          {name}
         </div>
-        <div className='w-full text-start text-sm text-gray-300 font-mono font-bold'>
-          Desarrollo web React
-        </div>
+      
       </div>
-      <div className='w-1/3 overflow-hidden rounded-md p-3 content-center '>
-        <img src={reactIcon}></img>
+      <div className='m-auto rounded-md pb-10'>
+        <img src={icon}></img>
       </div>
     </div>
 

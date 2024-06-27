@@ -23,13 +23,13 @@ export const Presentacion = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-full flex flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col md:justify-center sm:justify-center xs:justify-center p-6 '>
+                <div className='w-full flex flex-col lg:flex-row md:flex-col sm:flex-col xs:flex-col md:justify-center sm:justify-center xs:justify-center p-6 '>
                     <button className='w-1/4 lg:w-1/4 md:w-full sm:w-full xs:w-3/4 m-auto mt-5 p-2 text-base font-mono rounded-lg border border-transparent hover:border hover:border-fuchsia-700 bg-zinc-800 text-gray-400'>Más Sobre Mí</button>
-                    <div className='w-3/4 md:w-full sm:w-full xs:w-full flex flex-row pr-4 sm:p-4 xs:p-4 justify-end md:justify-center sm:justify-center xs:justify-center'>
-                            <img className='xl:ml-52 sm:m-auto xs:m-auto' src={mail}></img>
-                            <img className='sm:m-auto xs:m-auto' src={linkedin}></img>
-                            <img className='sm:m-auto xs:m-auto' src={cv}></img>
-                            <img className='sm:m-auto xs:m-auto' src={github}></img>
+                    <div className='w-full md:w-full sm:w-full xs:w-full flex flex-row pr-4 sm:p-4 xs:p-4 xl:justify-end lg:justify-end md:justify-center sm:justify-center xs:justify-center'>
+                            <img className='m-auto xl:ml-52 sm:m-auto xs:m-auto' src={mail}></img>
+                            <img className='m-auto sm:m-auto xs:m-auto' src={linkedin}></img>
+                            <img className='m-auto sm:m-auto xs:m-auto' src={cv}></img>
+                            <img className='m-auto sm:m-auto xs:m-auto' src={github}></img>
 
                     </div>
                 </div>
