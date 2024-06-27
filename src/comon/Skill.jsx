@@ -4,7 +4,7 @@ import reactIcon from '../../src/img/reactIcon.png'
 
 export const Skill = (props) => {
   return (
-    <div className='w-4/5 flex xl:flex-row md:flex-row sm:flex-col xs:flex-col mt-5 rounded-md bg-zinc-900 border-r-4 border-fuchsia-800 cursor-pointer'>
+    <div className='w-4/5  flex xl:flex-row md:flex-row sm:flex-row xs:flex-col mt-5 rounded-md bg-zinc-900 border-r-4 border-fuchsia-800 cursor-pointer'>
       <div className='w-2/3 flex flex-col p-4 '>
         <div className='w-full text-start text-gray-300 font-mono font-bold'>
           React

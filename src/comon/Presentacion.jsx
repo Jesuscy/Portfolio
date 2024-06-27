@@ -1,10 +1,13 @@
 import React from 'react'
 import '../index.css'
 import fotocv from '../../src/img/fotocv.jpg'
+import github from '../../src/img/icons8-github-64 (1).png'
+import mail from '../../src/img/google.png'
+import cv from '../../src/img/approved.png'
 
 export const Presentacion = () => {
     return (
-        <div className="w-full flex justify-center p-2 sm:p-8 md:p-12 lg:p-16 xl:p-20 md:mt-50 md:mb-52 ">
+        <div className="w-full flex justify-center  sm:p-8 md:p-12 lg:p-16 xl:p-20 md:mt-50 md:mb-52 md:ml-10 lg:ml-10">
             <div className='w-full  md:items-start sm:items-center xs:items-center sm:w-4/5 md:w-3/5 lg:w-3/5 flex flex-col bg-zinc-900 rounded-md'>
                 <div className='w-full flex flex-col md:flex-row'>
                     <div className='md:w-2/3 pt-10 md:pt-20 flex flex-col'>
@@ -19,10 +22,16 @@ export const Presentacion = () => {
                         </div>
                     </div>
                 </div>
-
-                <button className='w-1/4 mt-5 p-2 text-base font-mono rounded-lg border border-transparent hover:border hover:border-fuchsia-700 bg-zinc-800 text-gray-400'>Más Sobre Mí</button>
+                <div className='w-full flex flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col md:justify-center sm:justify-center xs:justify-center p-6 '>
+                    <button className='w-1/4 lg:w-1/4 md:w-full sm:w-full xs:w-3/4 m-auto mt-5 p-2 text-base font-mono rounded-lg border border-transparent hover:border hover:border-fuchsia-700 bg-zinc-800 text-gray-400'>Más Sobre Mí</button>
+                    <div className='w-3/4 md:w-full sm:w-full xs:w-full flex flex-row pr-4 sm:p-4 xs:p-4 justify-end md:justify-center sm:justify-center xs:justify-center'>
+                            <img className='sm:m-auto xs:m-auto' src={mail}></img>
+                            <img className='sm:m-auto xs:m-auto' src={cv}></img>
+                            <img className='sm:m-auto xs:m-auto' src={github}></img>
+                    </div>
+                </div>
             </div>
         </div>
-        
+
     )
 }

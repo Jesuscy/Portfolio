@@ -10,7 +10,7 @@ export const Navbar = () => {
       <div className='w-full flex justify-center font-bold'>
         <div className='w-full md:w-3/4 flex flex-col md:flex-row p-2 text-gray-300 justify-center md:justify-center'>
           <div className='w-full md:w-1/5 m-2 p-2 text-center font-mono border border-fuchsia-900 rounded-md cursor-pointer hover:bg-zinc-700'>
-            Formacion
+            Formación
           </div>
           <div className='w-full md:w-1/5 m-2 p-2 text-center font-mono border border-fuchsia-900 rounded-md cursor-pointer hover:bg-zinc-700'>
             Contacto
