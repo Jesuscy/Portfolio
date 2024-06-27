@@ -1,5 +1,11 @@
 import React from 'react'
 import { Skill } from './Skill'
+import html from '../../src/img/htmIcon.png'
+import css from '../../src/img/cssIcon.png'
+import js from '../../src/img/jsIcon.png'
+import react from '../../src/img/reactIcon.png'
+import node from '../../src/img/nodeJsIcon.png'
+import mongo from '../../src/img/mongoIcon.png'
 
 export const Habilidades = () => {
     return (

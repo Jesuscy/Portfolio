@@ -4,6 +4,7 @@ import fotocv from '../../src/img/fotocv.jpg'
 import github from '../../src/img/icons8-github-64 (1).png'
 import mail from '../../src/img/google.png'
 import cv from '../../src/img/approved.png'
+import linkedin from '../../src/img/icons8-linkedin-48.png'
 
 export const Presentacion = () => {
     return (
@@ -26,8 +27,10 @@ export const Presentacion = () => {
                     <button className='w-1/4 lg:w-1/4 md:w-full sm:w-full xs:w-3/4 m-auto mt-5 p-2 text-base font-mono rounded-lg border border-transparent hover:border hover:border-fuchsia-700 bg-zinc-800 text-gray-400'>Más Sobre Mí</button>
                     <div className='w-3/4 md:w-full sm:w-full xs:w-full flex flex-row pr-4 sm:p-4 xs:p-4 justify-end md:justify-center sm:justify-center xs:justify-center'>
                             <img className='xl:ml-52 sm:m-auto xs:m-auto' src={mail}></img>
+                            <img className='sm:m-auto xs:m-auto' src={linkedin}></img>
                             <img className='sm:m-auto xs:m-auto' src={cv}></img>
                             <img className='sm:m-auto xs:m-auto' src={github}></img>
+
                     </div>
                 </div>
             </div>
