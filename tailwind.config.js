@@ -5,6 +5,10 @@ module.exports = {
       screens: {
         'xs': '375px',
       },
+      fontFamily:{
+        playwrite:['Playwrite ES Deco','Roboto'],
+        lato:['Lato','Roboto']
+      }
     },
   },
   plugins: [
