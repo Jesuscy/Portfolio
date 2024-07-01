@@ -12,15 +12,15 @@ export const Habilidades = (props) => {
         <div className="w-full flex justify-center xs:p-8 sm:p-8 md:p-12 lg:p-16 xl:p-20">
             <div className='w-full flex flex-col p-10 sm:w-4/5 md:w-4/5 lg:w-4/5 rounded-md'>
                 <div className='md:w-full text-center pt-10 md:pt-10 flex flex-col'>
-                    <div className='flex flex-col font-mono font-bold text-4xl sm:text-3xl md:text-5xl  text-fuchsia-800'>
+                    <div className='flex flex-col font-mono font-bold text-4xl sm:text-3xl md:text-5xl border-b-2 p-5 border-neutral-700  text-green-500'>
                         SKILLS
                     </div>
                 </div>
-                <div className='w-full flex lg:flex-row md:flex-row sm:flex-col xs:flex-col md:items-start sm:items-center xs:items-center overflow-hidden'>
+                <div className='w-full flex lg:flex-row md:flex-col sm:flex-col xs:flex-col justify-center md:justify-center sm:justify-center xs:justify-center overflow-hidden'>
 
-                    <div className='w-1/2 flex flex-col sm:w-full xs:w-full md:text-left mt-10 md:mt-20 p-4 justify-center font-mono font-bold text-2xl text-gray-300 '>
-                        Frontend:
-                        <div className='w-full flex flex-wrap justify-center'>
+                    <div className='flex flex-col lg:w-2/5 md:w-4/5 sm:w-4/5 xs:w-full md:text-center md:mt-20 p-4 m-auto mt-10 justify-center font-mono font-bold text-2xl bg-slate-700 rounded-lg text-gray-300 '>
+                        <div className='border-b-2 border-gray-800'>Frontend:</div>
+                        <div className='w-full flex flex-row flex-wrap pt-4 justify-center'>
                             <Skill icon={html} name="HTML" />
                             <Skill icon={css} name="CSS" />
                             <Skill icon={js} name="JavaScript" />
@@ -28,15 +28,18 @@ export const Habilidades = (props) => {
                         </div>
                     </div>
 
-                    <div className='lg:w-1 md:w-1 h-full mt-20 rounded-lg bg-fuchsia-900'></div>
-
-                    <div className='w-1/2 flex flex-col sm:w-full xs:w-full md:text-left sm:text-center xs:text-center mt-10 md:mt-20 p-4 justify-center font-mono font-bold text-2xl text-gray-300'>
-                        Backend:
-                        <div className='w-full flex flex-wrap justify-center'>
-                            <Skill icon={node} name="Node.js" />
-                            <Skill icon={mongo} name="MongoDB" />
+                    <div className='flex flex-col lg:w-2/5 md:w-4/5 sm:w-4/5 xs:w-full md:text-center mt-10 md:mt-20 p-4 m-auto justify-center font-mono font-bold text-2xl bg-slate-700 rounded-lg text-stone-900 '>
+                    <div className='border-b-2 border-gray-800'>Frontend:</div>
+                    <div className='w-full flex flex-row flex-wrap pt-4 justify-center'>
+                            <Skill icon={node} name="HTML" />
+                            <Skill icon={js} name="CSS" />
+                            <Skill icon={mongo} name="JavaScript" />
+                            <Skill icon={react} name="React" />
                         </div>
                     </div>
+
+
+
 
                 </div>
             </div>
