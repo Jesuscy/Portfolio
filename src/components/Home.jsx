@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import { Formacion } from '../comon/Formacion'
 import { Habilidades } from '../comon/Habilidades'
 import { Navbar } from '../comon/Navbar'
@@ -12,6 +13,7 @@ export const Home = () => {
     <Navbar/>
     <Presentacion/>
     <Habilidades/>
+    <Formacion/>
     </div>
     </>
     )

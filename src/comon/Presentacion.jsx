@@ -8,12 +8,13 @@ import linkedin from '../../src/img/icons8-linkedin-100.png'
 
 export const Presentacion = () => {
     return (
-        <div className="w-full flex justify-center  sm:p-8 md:p-12 lg:p-16 xl:p-20 md:mt-40 md:mb-52 md:ml-10 lg:ml-10">
+        <div className="w-full flex justify-center  sm:p-8 md:p-12 lg:p-16 xl:p-20 md:mt-30 md:mb-52 md:ml-10 lg:ml-10">
             <div className='w-full  md:items-start sm:items-center xs:items-center sm:w-4/5 md:w-3/5 lg:w-3/5 flex flex-col bg-zinc-900 rounded-md'>
                 <div className='w-full flex flex-col md:flex-row'>
                     <div className='md:w-2/3 pt-10 md:pt-20 flex flex-col'>
-                    <div className='pt-4 pl-4 font-playwrite text-3xl sm:text-4xl md:text-5xl text-gray-300'>Jesús Carrasco Yelo</div>
-                    <div className='ml-2 pt-12 flex flex-col p-4 pb-10 font-playwrite text-2xl sm:text-3xl md:text-4xl text-green-500'>Full Stack Developer
+                    <div className='pt-4 pl-4 font-mono font-bold text-4xl sm:text-4xl md:text-5xl text-gray-300'>Jesús</div>
+                    <div className='pt-4 pl-4 font-mono font-bold text-3xl sm:text-4xl md:text-5xl text-gray-300'>Carrasco Yelo</div>
+                    <div className='ml-2 pt-12 flex flex-col p-4 pb-10 font-mono font-bold text-2xl sm:text-3xl md:text-4xl text-green-500'>Full Stack Developer
                         </div>
                     </div>
                     <div className='w-full md:w-1/3 mt-24 md:mt-18 flex justify-center'>
