@@ -24,7 +24,7 @@ export const Titulo = ({ img, center, formacion, desc, skills }) => {
             </div>
 
             <div className='w-full flex flex-row flex-wrap justify-center p-4 border-2 border-transparent border-t-gray-900'>
-            <div className='w-full flex flex-row flex-wrap justify-center p-2 rounded-md bg-slate-600 '>
+            <div className='w-full flex flex-row flex-wrap justify-center p-2 rounded-md bg-slate-700 '>
 
                     {skills.map((skill, index) => (
                         <Skill key={index} icon={skill} />

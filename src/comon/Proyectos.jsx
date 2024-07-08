@@ -1,7 +1,9 @@
 import React from 'react'
 import '../index.css'
 import { Project } from './Project'
-
+import fileCommite from '../../src/img/FileCommite.png'
+import tiktak from '../../src/img/TikTakToe.png'
+import pokeApi from '../../src/img/PokeApi.png'
 
 export const Proyectos = () => {
   return (
@@ -13,9 +15,9 @@ export const Proyectos = () => {
             </div>
         </div>
         <div className="w-full flex xl:flex-row lg:flex-col md:flex-col sm:flex-col xs:flex-col">
-            <Project/>
-            <Project/>
-            <Project/>
+            <Project pimg={fileCommite} pname={'FileCommite'} pdesc={'Proyecto orientado a la gestión de contenidos en grupo.'}/>
+            <Project pimg={tiktak} pname={'TikTak Toe'} pdesc={'Recreación del clásico tres en raya.'}/>
+            <Project pimg={pokeApi} pname={'PokeApi'} pdesc={'Recreación de pokedex'}/>
 
         </div>
     </div>
