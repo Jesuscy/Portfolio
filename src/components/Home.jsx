@@ -14,6 +14,7 @@ export const Home = () => {
     <Presentacion/>
     <Habilidades/>
     <Formacion/>
+    <Proyectos/>
     </div>
     </>
     )
